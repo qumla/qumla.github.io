@@ -38,6 +38,10 @@ The live site is served from:
 
 <https://wookshin26.github.io>
 
+## Codex Skills
+
+- `.codex/skills/update-publications/SKILL.md`: reusable workflow for refreshing `_bibliography/papers.bib` and the publications tab from the Google Scholar profile.
+
 ## Documentation
 
 - `README.md`: short project overview.
@@ -48,4 +52,3 @@ The live site is served from:
 ## Removed Template Material
 
 The original al-folio template includes demos, tests, Docker files, preview screenshots, sample posts, sample projects, sample CV data, and contributor automation. Those were removed because they are not part of this research group homepage.
-
