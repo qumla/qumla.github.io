@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">A neutral placeholder for the principal investigator profile image.</desc>
+  <rect width="900" height="1100" fill="#f4f6f8"/>
+  <circle cx="450" cy="330" r="155" fill="#d7dee8"/>
+  <path d="M170 910c32-191 139-303 280-303s248 112 280 303" fill="#d7dee8"/>
+  <text x="450" y="1010" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" fill="#586271">Profile Photo</text>
+</svg>
