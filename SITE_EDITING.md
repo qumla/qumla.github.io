@@ -21,3 +21,7 @@ Site-wide settings:
 
 - Group name, description, footer, and deployment URL: `_config.yml`
 
+Deployment:
+
+- Pushing to `main` triggers `.github/workflows/deploy.yml`.
+- The live site is `https://wookshin26.github.io`.
