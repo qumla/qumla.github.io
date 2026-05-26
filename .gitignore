@@ -3,6 +3,7 @@ _site/
 .DS_Store
 .DS_store
 .gh-cache/
+.codex/skills/
 .idea/
 .jekyll-cache/
 .jekyll-metadata
