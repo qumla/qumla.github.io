@@ -2,10 +2,9 @@
 layout: about
 title: home
 permalink: /
-subtitle: Research at the intersection of quantum methods, machine learning, and data-driven discovery.
-
+subtitle: Quantum machine learning and algorithms in Sejong university
 profile:
-  align: right
+  align: left
   image: profile-placeholder.svg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -27,12 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p style="text-align:center; margin: 0 0 2rem;">
-  <img src="{{ '/assets/img/qumla-full.png' | relative_url }}" alt="QuMLa logo" style="max-width: min(520px, 92%); height: auto;">
-</p>
+<div class="qumla-home-logo" style="text-align: center; margin: 0 auto 2rem;">
+  <img src="{{ '/assets/img/qumla-full.png' | relative_url }}" alt="QuMLa logo" style="display: inline-block; width: min(560px, 92%); height: auto;">
+</div>
 
-Welcome to **QuMLa**. We study computational and data-driven approaches for understanding complex physical systems, with an emphasis on rigorous methods, reproducible research, and useful tools for scientific discovery.
+Welcome to **QuMLa**. 
 
-Our group works across theory, algorithms, and applications in quantum information, quantum computing, and machine learning. This homepage collects our publications, research directions, members, lab news, and official notices.
+Our group works across theory, algorithms, and applications in quantum information, quantum computing, and machine learning. 
 
 **PI profile:** [Google Scholar](https://scholar.google.co.kr/citations?user=n3o1O6UAAAAJ&hl=en) | 170 citations | h-index 6 | i10-index 3, listed on Google Scholar as of May 2026.
