@@ -9,7 +9,7 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 
-Add your BibTeX entries to `_bibliography/papers.bib`. This page will be generated automatically from that file.
+This publication list is generated from `_bibliography/papers.bib` and seeded from Seongwook Shin's public Google Scholar profile.
 
 <!-- Bibsearch Feature -->
 

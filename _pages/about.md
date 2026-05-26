@@ -9,12 +9,12 @@ profile:
   image: profile-placeholder.svg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Principal Investigator</p>
-    <p>Department / University</p>
-    <p>your.email@university.edu</p>
+    <p>Seongwook Shin</p>
+    <p>Department of Quantum Information Science and Engineering / Sejong University</p>
+    <p>seongwook_shin(at)sejong.ac.kr</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -33,6 +33,6 @@ latest_posts:
 
 Welcome to **QuMLa**. We study computational and data-driven approaches for understanding complex physical systems, with an emphasis on rigorous methods, reproducible research, and useful tools for scientific discovery.
 
-Our group works across theory, algorithms, and applications. This homepage will collect our publications, research directions, members, lab news, and official notices.
+Our group works across theory, algorithms, and applications in quantum information, quantum computing, and machine learning. This homepage collects our publications, research directions, members, lab news, and official notices.
 
-Replace this introduction with your preferred group description, current research themes, and contact details.
+**PI profile:** [Google Scholar](https://scholar.google.co.kr/citations?user=n3o1O6UAAAAJ&hl=en) | 170 citations | h-index 6 | i10-index 3, listed on Google Scholar as of May 2026.
