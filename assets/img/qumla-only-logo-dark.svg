@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 250 250"
+   font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="QuMLa_only_logo.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   width="250"
+   height="250"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1"
+     inkscape:cx="235.5"
+     inkscape:cy="152"
+     inkscape:window-width="1712"
+     inkscape:window-height="777"
+     inkscape:window-x="1993"
+     inkscape:window-y="761"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <!--
+    QuMLa Logo - Fully editable SVG reconstruction
+    Colors:
+      Navy: #EBDEC2  (hexagon, right triangle, main text)
+      Teal: #2A9D9F  (left triangle, 'a' letter)
+
+    Layout structure:
+      g#logo            : left logo mark
+        g#hexagon       : navy hexagon outline (6-vertex polygon)
+        g#mark-left     : teal triangle (outline only) - points right
+        g#mark-right    : navy triangle (outline only) - points left
+                          (shares right edge with hexagon)
+      line#divider      : center vertical separator
+      g#wordmark        : right-side text block
+        text#qumla      : "QuMLa" - QuML in navy, a in teal
+        text#subtitle*  : two-line subtitle in navy
+  -->
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .navy        { fill: #EBDEC2; }
+      .teal        { fill: #2A9D9F; }
+      .navy-stroke { stroke: #EBDEC2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+      .teal-stroke { stroke: #2A9D9F; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  <!-- ========== LEFT: LOGO MARK ========== -->
+  <g
+     id="logo"
+     transform="translate(-38.72498,0.1375099)">
+    <!-- Hexagon outline (navy stroke).
+         6 vertices going clockwise from the top:
+           top         (115, 90)
+           upper-right (167, 125)
+           middle-right(210, 170)   <- right edge top
+           lower-right (210, 260)   <- right edge bottom
+           lower-left  ( 58, 195)   <- left edge bottom
+           upper-left  ( 58, 122)   <- left edge top
+    -->
+    <!-- Left triangle (teal, outline only) - points RIGHT.
+         Long left vertical edge, apex at center-right.
+           top-left:    (115, 170)
+           bottom-left: (115, 260)
+           center apex: (162, 215)
+    -->
+    <g
+       id="mark-left"
+       transform="translate(36.337669,18.525086)" />
+    <g
+       id="g4"
+       transform="matrix(1.0499603,0,0,1.0499603,8.341531,-37.650103)">
+      <g
+         id="mark-right"
+         transform="matrix(1.1463196,0,0,1.0583193,-5.4321868,-28.201979)"
+         style="stroke-width:6.98601;stroke-dasharray:none">
+        <path
+           id="polygon3"
+           class="navy-stroke"
+           style="fill:none;stroke:#EBDEC2;stroke-width:6.98601;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 210,260 v -90 l -33.03743,39.29997"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <path
+         id="polygon2"
+         class="teal-stroke"
+         style="fill:none;stroke:#2a9d9f;stroke-width:7.65236;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 185.91241,204.60792 -52.76581,45.65352 v -93.9129 l 102.25575,90.91148"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <path
+       id="polygon1"
+       class="navy-stroke"
+       style="fill:none;stroke:#EBDEC2;stroke-width:8.23495;stroke-linecap:round;stroke-linejoin:round"
+       d="m 202.95189,121.3784 -0.005,-56.217797 -66.22572,-36.165035 -62.292045,35.463176 0.08172,76.835676 55.105335,28.15781"
+       sodipodi:nodetypes="cccccc" />
+    <g
+       id="hexagon"
+       transform="matrix(0.87376692,0,0,0.99902171,-0.18484695,-13.010111)" />
+    <!-- Right triangle (navy, outline only) - points LEFT.
+         Long right vertical edge is shared with the hexagon's right edge.
+           top-right:    (210, 170)
+           bottom-right: (210, 260)
+           center apex:  (162, 215)
+    -->
+  </g>
+  <!-- ========== DIVIDER ========== -->
+  <!-- ========== RIGHT: WORDMARK ========== -->
+</svg>

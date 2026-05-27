@@ -1,21 +1,18 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle:
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
-
+selected_papers: true
+social: false
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
-
+  enabled: true
+  scrollable: false
+  limit: 3
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 <style>
@@ -34,6 +31,18 @@ latest_posts:
     height: auto;
   }
 
+  .qumla-home-logo .qumla-logo-dark {
+    display: none;
+  }
+
+  html[data-theme="dark"] .qumla-home-logo .qumla-logo-light {
+    display: none;
+  }
+
+  html[data-theme="dark"] .qumla-home-logo .qumla-logo-dark {
+    display: inline-block;
+  }
+
   .qumla-home-intro {
     margin: 0 auto 2.5rem;
     max-width: 760px;
@@ -44,10 +53,16 @@ latest_posts:
 </style>
 
 <div class="qumla-home-logo">
-  <img src="{{ '/assets/img/qumla-full.png' | relative_url }}" alt="QuMLa full logo">
+  <img class="qumla-logo-light" src="{{ '/assets/img/qumla-full.png' | relative_url }}" alt="QuMLa full logo">
+  <img class="qumla-logo-dark" src="{{ '/assets/img/qumla-full-dark.png' | relative_url }}" alt="QuMLa full logo">
 </div>
 
 <div class="qumla-home-intro">
-  <p>QuMLa studies quantum machine learning and algorithms at Sejong University.</p>
-  <p>Our work connects quantum information theory, learning theory, tensor-network methods, and practical algorithm design for near-term and fault-tolerant quantum computation.</p>
+  <p>This is Quantum machine learning and algorithm group in <a href="https://dept.sejong.ac.kr/qisedpt/index.do">Department of Quantum Information Science and Engineering</a>, Sejong University.</p>
+  
+  <p>How will quantum computing benefit humanity? Our primary research area is <strong>Quantum machine learning and Quantum algorithms</strong>. We explore how quantum computers can enhance machine learning and what unique advantages quantum computers hold compared to classical counterparts.</p>
+  
+  <p> Would it be capable of <em>better</em> thought if the <em>brain</em> of artificial intelligence were quantum ? </p>
+  
+  <p> Not only quantum machine learning and algorithms, we study and raise questions regarding the broader field of <strong>Quantum Information Theory</strong>.</p>
 </div>

@@ -13,10 +13,11 @@ nav_order: 4
 
 ## Notices
 
-| Date | Notice |
-| --- | --- |
-| 2026-05-26 | The QuMLa homepage is being prepared. |
+| Date       | Notice                                |
+| ---------- | ------------------------------------- |
+| 2026-05-26 | The QuMLa homepage is being prepared! |
+|            |                                       |
 
 ## Openings
 
-Prospective students and collaborators can check this page for future recruitment information, application guidance, and deadlines.
+We are hiring graduate/undergraduate students who are smart, diligent, and enthusiastic!

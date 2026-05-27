@@ -3,7 +3,8 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand title font-weight-lighter qumla-navbar-logo" href="{{ site.baseurl }}/" aria-label="QuMLa home">
-        <img src="{{ '/assets/img/qumla-only-logo.svg' | relative_url }}" alt="QuMLa home">
+        <img class="qumla-logo-light" src="{{ '/assets/img/qumla-only-logo.svg' | relative_url }}" alt="">
+        <img class="qumla-logo-dark" src="{{ '/assets/img/qumla-only-logo-dark.svg' | relative_url }}" alt="">
       </a>
 
       <style>
@@ -18,6 +19,53 @@
           display: block;
           width: 44px;
           height: 44px;
+        }
+
+        .qumla-navbar-logo .qumla-logo-dark {
+          display: none;
+        }
+
+        html[data-theme="dark"] .qumla-navbar-logo .qumla-logo-light {
+          display: none;
+        }
+
+        html[data-theme="dark"] .qumla-navbar-logo .qumla-logo-dark {
+          display: block;
+        }
+
+        :root,
+        html[data-theme="dark"] {
+          --global-theme-color: #2a9d9f;
+          --global-hover-color: #2a9d9f;
+          --global-highlight-color: #2a9d9f;
+        }
+
+        ::selection {
+          background: rgba(42, 157, 159, 0.28);
+        }
+
+        mark,
+        .highlight {
+          background: rgba(42, 157, 159, 0.18);
+          color: var(--global-text-color);
+        }
+
+        [role="main"] article h2,
+        [role="main"] .post-header .post-title,
+        [role="main"] h2 a,
+        .navbar-nav .nav-item.active > .nav-link,
+        .navbar-nav .nav-item .nav-link:hover {
+          color: #2a9d9f;
+        }
+
+        [role="main"] article strong {
+          color: var(--global-text-color);
+          font-weight: 700;
+        }
+
+        [role="main"] article em {
+          color: var(--global-text-color);
+          font-style: italic;
         }
 
         @media (max-width: 575.98px) {

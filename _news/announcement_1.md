@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The QuMLa research group homepage is being prepared.
+The QuMLa research group homepage is being prepared!

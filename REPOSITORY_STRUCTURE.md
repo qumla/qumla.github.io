@@ -9,7 +9,6 @@ This repository is intentionally kept small. It keeps only the source files need
   - `publications.md`: publications tab at `/publications/`.
   - `members.md`: members tab at `/members/`.
   - `news.md`: News/Notice tab at `/news/`.
-  - `notice.md`: hidden compatibility page at `/notice/`.
   - `404.md`: missing-page fallback.
 - `_news/`: short dated news items shown on the home page and News/Notice page.
 - `_bibliography/papers.bib`: BibTeX source for the publications page.
