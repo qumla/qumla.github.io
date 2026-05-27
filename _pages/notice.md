@@ -2,18 +2,10 @@
 layout: page
 title: notice
 permalink: /notice/
-description: official announcements and opportunities
-nav: true
+description: notices have moved to News/Notice
+nav: false
 nav_order: 5
+sitemap: false
 ---
 
-## Notices
-
-| Date | Notice |
-| --- | --- |
-| 2026-05-26 | The QuMLa homepage is being prepared. |
-
-## Openings
-
-Prospective students and collaborators can check this page for future recruitment information, application guidance, and deadlines.
-
+Notices are now listed on the [News/Notice]({{ '/news/' | relative_url }}) page.

@@ -4,7 +4,7 @@ title: members
 permalink: /members/
 description: people in the research group
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <style>
@@ -45,6 +45,15 @@ nav_order: 3
     margin: 0.1rem 0;
   }
 
+  .pi-career {
+    margin: 0.5rem 0 0;
+    padding-left: 1.15rem;
+  }
+
+  .pi-career li {
+    margin: 0.25rem 0;
+  }
+
   @media (max-width: 480px) {
     .member-row {
       gap: 0.75rem;
@@ -66,7 +75,12 @@ nav_order: 3
     <div class="member-info">
       <h3>Seongwook Shin</h3>
       <p>Principal Investigator</p>
-      <p>Quantum information theory, machine learning, and algorithms</p>
+      <ul class="pi-career">
+        <li>Assistant Professor, Sejong Univ (2026.02 - Present)</li>
+        <li>Postdoctoral researcher, Freie Universit&auml;t Berlin (PI: Jens Eisert) (2024.10 - 2026.02)</li>
+        <li>Ph.D. in Physics, Seoul National Univ (Advisor: Hyunseok Jeong) (2018.09 - 2024.08)</li>
+        <li>BSc in Physics, Yonsei Univ (2013.03 - 2018.08)</li>
+      </ul>
     </div>
   </div>
 </div>

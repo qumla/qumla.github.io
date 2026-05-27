@@ -7,12 +7,11 @@ This repository is intentionally kept small. It keeps only the source files need
 - `_pages/`: top-level website pages.
   - `about.md`: home page at `/`.
   - `publications.md`: publications tab at `/publications/`.
-  - `about_me.md`: PI profile tab at `/about/`.
   - `members.md`: members tab at `/members/`.
-  - `news.md`: news tab at `/news/`.
-  - `notice.md`: notice tab at `/notice/`.
+  - `news.md`: News/Notice tab at `/news/`.
+  - `notice.md`: hidden compatibility page at `/notice/`.
   - `404.md`: missing-page fallback.
-- `_news/`: short dated news items shown on the home page and news page.
+- `_news/`: short dated news items shown on the home page and News/Notice page.
 - `_bibliography/papers.bib`: BibTeX source for the publications page.
 
 ## Site Settings
@@ -25,7 +24,7 @@ This repository is intentionally kept small. It keeps only the source files need
 ## Assets
 
 - `assets/img/qumla-full.png`: main QuMLa logo used on the home page.
-- `assets/img/qumla-only-logo.svg`: site icon.
+- `assets/img/qumla-only-logo.svg`: navbar home button and site icon.
 - `assets/img/profile-placeholder.svg`: temporary profile image placeholder.
 
 Add future public images under `assets/img/`.
