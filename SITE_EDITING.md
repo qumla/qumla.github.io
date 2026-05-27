@@ -15,7 +15,7 @@ Images:
 - Favicon/logo icon: `assets/img/qumla-only-logo.svg`
 - Profile image placeholder: `assets/img/profile-placeholder.svg`
 
-To use your real profile photo, add the image to `assets/img/` and update the `profile.image` value in `_pages/about.md`.
+To use your real profile photo, add the image to `assets/img/` and update the image path in `_pages/about_me.md`.
 
 Site-wide settings:
 
