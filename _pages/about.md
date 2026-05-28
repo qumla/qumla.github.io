@@ -2,6 +2,9 @@
 layout: about
 title: Home
 permalink: /
+description: QuMLa is the Quantum Machine Learning and Algorithms research group at Sejong University, studying quantum machine learning, quantum algorithms, and quantum information theory.
+keywords: QuMLa, quantum machine learning, quantum algorithms, quantum information theory, quantum computing, Sejong University, Department of Quantum Information Science and Engineering
+og_image: https://qumla.github.io/assets/img/qumla-full.png
 subtitle:
 selected_papers: true
 social: false
@@ -136,6 +139,34 @@ latest_posts:
     }
   }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "QuMLa",
+  "alternateName": "Quantum Machine Learning and Algorithms group",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "logo": "{{ site.url }}{{ site.baseurl }}/assets/img/qumla-full.png",
+  "description": "{{ page.description }}",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Sejong University",
+    "url": "https://www.sejong.ac.kr/"
+  },
+  "department": {
+    "@type": "Organization",
+    "name": "Department of Quantum Information Science and Engineering",
+    "url": "https://dept.sejong.ac.kr/qisedpt/index.do"
+  },
+  "knowsAbout": [
+    "Quantum machine learning",
+    "Quantum algorithms",
+    "Quantum information theory",
+    "Quantum computing"
+  ]
+}
+</script>
 
 <div class="qumla-home-logo">
   <img class="qumla-logo-light" src="{{ '/assets/img/qumla-full.png' | relative_url }}" alt="QuMLa full logo">

@@ -45,6 +45,14 @@ nav_order: 2
     margin: 0.1rem 0;
   }
 
+  .member-contact {
+    margin-top: 0.35rem;
+  }
+
+  .member-contact p {
+    margin: 0.1rem 0;
+  }
+
   .pi-career {
     margin: 0.5rem 0 0;
     padding-left: 1.15rem;
@@ -75,6 +83,10 @@ nav_order: 2
     <div class="member-info">
       <h3>Seongwook Shin</h3>
       <p>Principal Investigator</p>
+      <div class="member-contact">
+        <p>Email: seongwook_shin(at)sejong.ac.kr</p>
+        <p>Google Scholar: <a href="https://scholar.google.co.kr/citations?user=n3o1O6UAAAAJ&amp;hl=ko" target="_blank" rel="noopener">Seongwook Shin</a></p>
+      </div>
       <ul class="pi-career">
         <li>Assistant Professor, Sejong Univ (2026.02 - Present)</li>
         <li>Postdoctoral researcher, Freie Universit&auml;t Berlin (PI: Jens Eisert) (2024.10 - 2026.02)</li>
