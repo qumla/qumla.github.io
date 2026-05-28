@@ -2,7 +2,7 @@
 
 This repository contains the public homepage for the QuMLa research group:
 
-<https://wookshin26.github.io>
+<https://qumla.github.io>
 
 The site is built with Jekyll and the al-folio theme runtime. Content is edited mostly through Markdown files in `_pages`, `_news`, and `_bibliography`.
 
@@ -14,4 +14,3 @@ Useful files:
 - `.github/workflows/deploy.yml`: GitHub Pages deployment workflow
 
 To publish changes, edit the relevant files, commit, and push to `main`. GitHub Actions will build and deploy the site automatically.
-

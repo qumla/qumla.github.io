@@ -28,4 +28,4 @@ Site-wide settings:
 Deployment:
 
 - Pushing to `main` triggers `.github/workflows/deploy.yml`.
-- The live site is `https://wookshin26.github.io`.
+- The live site is `https://qumla.github.io`.
