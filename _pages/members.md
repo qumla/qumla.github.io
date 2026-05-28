@@ -38,7 +38,8 @@ nav_order: 2
 
   .member-info h3 {
     margin: 0 0 0.25rem;
-    font-size: 1.05rem;
+    font-size: 1.18rem;
+    font-weight: 700;
   }
 
   .member-info p {
@@ -103,7 +104,7 @@ nav_order: 2
   <div class="member-row">
     <img class="member-photo" src="{{ '/assets/img/profile-placeholder.svg' | relative_url }}" alt="Graduate student profile image placeholder">
     <div class="member-info">
-      <h3>Hiring!</h3>
+      <h3>Seeking!</h3>
       <p>Graduate Student</p>
       <p>-</p>
     </div>
@@ -116,7 +117,7 @@ nav_order: 2
   <div class="member-row">
     <img class="member-photo" src="{{ '/assets/img/profile-placeholder.svg' | relative_url }}" alt="Undergraduate researcher profile image placeholder">
     <div class="member-info">
-      <h3>Hiring!</h3>
+      <h3>Seeking!</h3>
       <p>Undergraduate Researcher</p>
       <p>-</p>
     </div>
