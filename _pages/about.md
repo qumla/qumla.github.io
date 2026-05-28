@@ -134,8 +134,20 @@ latest_posts:
   }
 
   @media (max-width: 575.98px) {
+    .qumla-home-intro {
+      margin-bottom: 1.8rem;
+    }
+
     .qumla-intro-card {
       padding: 1.25rem;
+    }
+
+    .qumi-peek {
+      display: block;
+      position: static;
+      width: min(180px, 48vw);
+      margin: 1rem auto 0;
+      transform: none;
     }
   }
 </style>

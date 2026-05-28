@@ -13,6 +13,7 @@
           right: 0;
           left: 0;
           width: 100%;
+          opacity: 1;
           padding-right: 0;
           padding-left: 0;
         }
@@ -65,6 +66,10 @@
 
         .navbar-toggler-main {
           display: none;
+        }
+
+        .navbar-toggler-main .icon-bar:last-child {
+          margin-bottom: 0;
         }
 
         .qumla-navbar-logo .qumla-logo-dark {
@@ -122,10 +127,15 @@
         }
 
         @media (max-width: 575.98px) {
+          #navbar {
+            position: fixed;
+          }
+
           #navbar > .container {
             padding-right: 15px;
             padding-left: 15px;
             flex-wrap: nowrap;
+            position: relative;
           }
 
           .qumla-navbar-logo {
@@ -139,18 +149,56 @@
             height: 34px;
           }
 
+          .navbar-toggler-main {
+            display: inline-flex;
+            width: 42px;
+            height: 42px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            border: 1px solid rgba(42, 157, 159, 0.36);
+            border-radius: 8px;
+          }
+
           .navbar-collapse-main {
-            flex-grow: 1;
+            display: none !important;
+            position: absolute;
+            top: calc(100% + 0.35rem);
+            right: 15px;
+            left: 15px;
+            width: auto;
+            min-width: 0;
+            padding: 0.35rem 0;
+            border: 1px solid var(--global-divider-color);
+            border-radius: 8px;
+            background-color: var(--global-bg-color);
+            box-shadow: 0 14px 34px rgba(20, 33, 61, 0.14);
+            text-align: left;
+          }
+
+          .navbar-collapse-main.show {
+            display: block !important;
           }
 
           .navbar-menu-list {
+            width: 100%;
+            margin-left: 0;
+            align-items: stretch;
+            flex-direction: column;
+            flex-wrap: nowrap;
             row-gap: 0;
-            column-gap: 0.1rem;
+            column-gap: 0;
           }
 
           #navbar .nav-link {
-            padding: 0.24rem 0.26rem;
-            font-size: 0.74rem;
+            padding: 0.62rem 0.8rem;
+            font-size: 0.95rem;
+            text-align: left;
+          }
+
+          .toggle-container {
+            padding: 0.45rem 0.8rem;
           }
         }
       </style>
