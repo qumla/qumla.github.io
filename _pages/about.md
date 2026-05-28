@@ -44,6 +44,7 @@ latest_posts:
   }
 
   .qumla-home-intro {
+    position: relative;
     margin: 0 auto 2.5rem;
     max-width: 900px;
   }
@@ -59,6 +60,19 @@ latest_posts:
     background: linear-gradient(135deg, rgba(42, 157, 159, 0.08), rgba(20, 33, 61, 0.035));
     box-shadow: 0 18px 45px rgba(20, 33, 61, 0.08);
     text-align: center;
+  }
+
+  .qumi-peek {
+    display: block;
+    position: absolute;
+    top: -1.2rem;
+    right: clamp(-112px, -9vw, -84px);
+    width: clamp(112px, 12vw, 136px);
+    height: auto;
+    pointer-events: none;
+    user-select: none;
+    transform: rotate(6deg);
+    filter: drop-shadow(0 12px 18px rgba(20, 33, 61, 0.2));
   }
 
   .qumla-intro-card p {
@@ -110,6 +124,12 @@ latest_posts:
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
   }
 
+  @media (max-width: 1080px) {
+    .qumi-peek {
+      display: none;
+    }
+  }
+
   @media (max-width: 575.98px) {
     .qumla-intro-card {
       padding: 1.25rem;
@@ -136,4 +156,5 @@ latest_posts:
       <span class="qumla-topic">Quantum Information Theory</span>
     </div>
   </section>
+  <img class="qumi-peek" src="{{ '/assets/img/qumi-peek.png' | relative_url }}" alt="" aria-hidden="true">
 </div>

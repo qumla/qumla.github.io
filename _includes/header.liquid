@@ -8,6 +8,13 @@
       </a>
 
       <style>
+        #navbar > .container {
+          width: min(calc(100% - 30px), {{ site.max_width }});
+          max-width: {{ site.max_width }};
+          margin-right: auto !important;
+          margin-left: auto !important;
+        }
+
         .qumla-navbar-logo {
           display: inline-flex;
           align-items: center;
@@ -66,6 +73,13 @@
         [role="main"] article em {
           color: var(--global-text-color);
           font-style: italic;
+        }
+
+        #progress,
+        .progress-container {
+          left: 50%;
+          width: min(calc(100% - 30px), {{ site.max_width }});
+          transform: translateX(-50%);
         }
 
         @media (max-width: 575.98px) {

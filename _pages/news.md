@@ -20,4 +20,4 @@ nav_order: 4
 
 ## Openings
 
-We are hiring graduate/undergraduate students who are smart, diligent, and enthusiastic!
+We are seeking smart, diligent, and enthusiastic graduate and undergraduate students!
