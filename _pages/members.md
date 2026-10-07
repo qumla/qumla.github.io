@@ -32,6 +32,20 @@ nav_order: 2
     background: var(--global-card-bg-color, #f7f7f7);
   }
 
+  .member-row--pi {
+    gap: 1.5rem;
+  }
+
+  .member-row--pi .member-photo {
+    flex-basis: 180px;
+    width: 180px;
+    height: 240px;
+  }
+
+  .member-row--pi .member-info {
+    overflow-wrap: anywhere;
+  }
+
   .member-info {
     min-width: 0;
   }
@@ -74,12 +88,25 @@ nav_order: 2
       height: 92px;
     }
   }
+
+  @media (max-width: 600px) {
+    .member-row--pi {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .member-row--pi .member-photo {
+      flex: 0 0 auto;
+      width: 150px;
+      height: 200px;
+    }
+  }
 </style>
 
 ## Principal Investigator
 
 <div class="members-list">
-  <div class="member-row">
+  <div class="member-row member-row--pi">
     <img class="member-photo" src="{{ '/assets/img/seongwook-shin-profile.jpg' | relative_url }}" alt="Seongwook Shin">
     <div class="member-info">
       <h3>Seongwook Shin</h3>
