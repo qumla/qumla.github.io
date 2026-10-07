@@ -80,7 +80,7 @@ nav_order: 2
 
 <div class="members-list">
   <div class="member-row">
-    <img class="member-photo" src="{{ '/assets/img/seongwook-shin.jpeg' | relative_url }}" alt="Seongwook Shin">
+    <img class="member-photo" src="{{ '/assets/img/seongwook-shin-profile.jpg' | relative_url }}" alt="Seongwook Shin">
     <div class="member-info">
       <h3>Seongwook Shin</h3>
       <p>Principal Investigator</p>
